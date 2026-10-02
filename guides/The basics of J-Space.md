@@ -1,4 +1,4 @@
-# Living in Our Wormhole
+# The Basics of Wormholes
 
 Welcome to wormhole space.
 
@@ -615,7 +615,7 @@ Instead
 2. Open the mapper.
 3. Determine where you are.
 4. Identify the route back toward home.
-5. Ask in alliancecorp chat if you're unsure.
+5. Ask in alliance/corp chat if you're unsure.
 6. Follow the mapped chain.
 
 If the mapper doesn't contain your location, tell someone.
