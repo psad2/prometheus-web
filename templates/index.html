@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block body %}
+<section class="hero">
+    <h1>Prometheus Rising Alliance</h1>
+    <p>Member guides and hauling rates. Sign in with your EVE character to get access.</p>
+    <div class="acts">
+        {% if session.name %}<a class="btn" href="/guides">Open guides</a><a class="btn ghost" href="/calculator">Price a haul</a>
+        {% else %}<a class="btn" href="/login">Log in with EVE</a>{% endif %}
+    </div>
+</section>
+<section class="tiles">
+    <a class="panel" href="/guides"><h3>Guides</h3><p>Doctrines and how-tos for members.</p></a>
+    <a class="panel" href="/calculator"><h3>Logistics rates</h3><p>Work out the reward for a haul.</p></a>
+</section>{% endblock %}

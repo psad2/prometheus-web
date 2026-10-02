@@ -1,0 +1,3 @@
+{% extends "base.html" %}{% block body %}<h1>Guides</h1>
+{% for g in guides %}<div class="card"><a href="/guides/{{ g.slug }}">{{ g.title }}</a></div>
+{% else %}<p>No guides yet.</p>{% endfor %}{% endblock %}
